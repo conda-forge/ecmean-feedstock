@@ -1,5 +1,5 @@
 {% set name = "ecmean" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/e/ecmean/ecmean-{{ version }}.tar.gz
-  sha256: 99c04c6b003da2e48c09f110d8474a3f71e877c572654649a46c20fbdb24d01f
+  sha256: e20568e37a53e15531837caacf094a8eff4902c93f536c84e56b3cbc42f9dc01
 
 build:
   entry_points:

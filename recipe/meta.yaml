@@ -30,16 +30,15 @@ requirements:
     - netcdf4
     - numba
     - dask-core
-    - esmpy
     - xesmf
     - metpy
     - matplotlib-base
     - tabulate
     - cfgrib
     - seaborn
-    - ruff
     - eccodes
-    - xesmf
+    - pip >=26.2.2
+    - certifi >=2026.10.19
 
 test:
   imports:
